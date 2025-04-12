@@ -249,6 +249,10 @@ export const resourceDescription: INodeProperties[] = [
 								value: 'like',
 							},
 							{
+							        name: 'ilike',
+							        value: 'ilike', 
+							},
+							{
 								name: 'Not In',
 								value: 'notIn',
 							},
