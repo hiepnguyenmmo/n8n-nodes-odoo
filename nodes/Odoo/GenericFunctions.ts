@@ -34,6 +34,7 @@ export const mapFilterOperationToJSONRPC = {
 	greaterOrEqual: '>=',
 	lesserOrEqual: '<=',
 	like: 'like',
+	ilike: 'ilike',
 	in: 'in',
 	notIn: 'not in',
 	childOf: 'child_of',
@@ -47,6 +48,7 @@ type FilterOperation =
 	| 'greaterOrEqual'
 	| 'lesserOrEqual'
 	| 'like'
+	| 'ilike' 
 	| 'in'
 	| 'notIn'
 	| 'childOf';
